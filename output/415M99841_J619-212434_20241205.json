@@ -1,25 +1,25 @@
 {
   "file_name": "415M99841_J619-212434_20241205.json",
   "entity_type_error_rate": {
-    "MEDICINE": 0.1294,
-    "PROBLEM": 0.7634,
-    "PROCEDURE": 0.4912,
+    "MEDICINE": 0.1412,
+    "PROBLEM": 0.9375,
+    "PROCEDURE": 0.5548,
     "TEST": 0.5429,
     "VITAL_NAME": 1.0,
     "IMMUNIZATION": 0.4,
     "MEDICAL_DEVICE": 1.0,
     "MENTAL_STATUS": 1.0,
-    "SDOH": 0.6667,
+    "SDOH": 1.0,
     "SOCIAL_HISTORY": 1.0
   },
   "assertion_error_rate": {
-    "POSITIVE": 0.3417,
-    "NEGATIVE": 0.3297,
+    "POSITIVE": 0.4562,
+    "NEGATIVE": 0.5714,
     "UNCERTAIN": 0.4737
   },
   "temporality_error_rate": {
-    "CURRENT": 0.7566,
-    "CLINICAL_HISTORY": 0.2533,
+    "CURRENT": 0.9377,
+    "CLINICAL_HISTORY": 0.32,
     "UPCOMING": 0.4912,
     "UNCERTAIN": 0.2857
   },

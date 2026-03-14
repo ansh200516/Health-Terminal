@@ -50,34 +50,7 @@ All four LLM agents run **concurrently per batch** using `asyncio.gather`, and t
 
 ## Architecture
 
-```
-test.py input.json output.json
-            │
-            ▼
-  ClinicalEvalOrchestrator
-            │
-     ┌──────┴──────┐
-     │   load_chart │  ← JSON entities + optional markdown OCR text
-     └──────┬──────┘
-            │  batch_size entities per round
-            ▼
-  ┌─────────────────────────────────────────┐
-  │          asyncio.gather (parallel)       │
-  │                                         │
-  │  EntityTypeValidator  AssertionValidator │
-  │  TemporalityValidator SubjectValidator   │
-  └─────────────────────────────────────────┘
-            │
-            │  (synchronous, rule-based)
-            ▼
-       MetadataValidator
-            │
-            ▼
-     build_output_payload
-            │
-            ▼
-      output/chart.json
-```
+![Architecture](utils/architecture.png)
 
 Every agent extends `BaseLLMAgent`, which provides:
 - **Gemini 2.0 Flash** calls with `temperature=0` and `response_mime_type=application/json`

@@ -45,7 +45,7 @@
 
 ## 2. Error Heat-Map
 
-![Clinical AI Pipeline Error Rate Heat-Map](error_heatmap.png)
+![Clinical AI Pipeline Error Rate Heat-Map](utils/error_heatmap.png)
 
 ---
 
