@@ -1,0 +1,994 @@
+{
+  "files_processed": 30,
+  "by_file": [
+    {
+      "file_name": "019M72177_N991-796129_20241213.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.16,
+        "PROBLEM": 0.5804,
+        "PROCEDURE": 0.5159,
+        "TEST": 0.2807,
+        "VITAL_NAME": 0.0938,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 0.9474,
+        "MENTAL_STATUS": 0.5,
+        "SDOH": 0.5,
+        "SOCIAL_HISTORY": 0.1429
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4589,
+        "NEGATIVE": 0.1646,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9864,
+        "CLINICAL_HISTORY": 0.359,
+        "UPCOMING": 0.45,
+        "UNCERTAIN": 0.4286
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.1061,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2183
+    },
+    {
+      "file_name": "019W06677_J608-122479_20241212.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.439,
+        "PROBLEM": 0.9182,
+        "PROCEDURE": 0.6308,
+        "TEST": 0.7,
+        "VITAL_NAME": 0.5,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.2
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.602,
+        "NEGATIVE": 0.4045,
+        "UNCERTAIN": 0.2917
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.6544,
+        "CLINICAL_HISTORY": 0.75,
+        "UPCOMING": 0.5789,
+        "UNCERTAIN": 0.5
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0576
+    },
+    {
+      "file_name": "104W15947_J727-290663_20241213.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.241,
+        "PROBLEM": 0.514,
+        "PROCEDURE": 0.5284,
+        "TEST": 0.7935,
+        "VITAL_NAME": 0.1538,
+        "IMMUNIZATION": 0.3125,
+        "MEDICAL_DEVICE": 0.75,
+        "MENTAL_STATUS": 0.6429,
+        "SDOH": 0.4,
+        "SOCIAL_HISTORY": 0.0357
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4811,
+        "NEGATIVE": 0.096,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9462,
+        "CLINICAL_HISTORY": 0.3521,
+        "UPCOMING": 0.7037,
+        "UNCERTAIN": 0.25
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.002,
+        "FAMILY_MEMBER": 0.12
+      },
+      "event_date_accuracy": 0.9867,
+      "attribute_completeness": 0.1834
+    },
+    {
+      "file_name": "105W05861_J614-495637_20241217.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.75,
+        "PROBLEM": 0.7692,
+        "PROCEDURE": 0.2045,
+        "TEST": 1.0,
+        "VITAL_NAME": 1.0,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.3333,
+        "NEGATIVE": 0.1818,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9898,
+        "CLINICAL_HISTORY": 1.0,
+        "UPCOMING": 0.8889,
+        "UNCERTAIN": 0.1
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0793
+    },
+    {
+      "file_name": "161W10351_N993-588097_20241126.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1463,
+        "PROBLEM": 0.7295,
+        "PROCEDURE": 0.8094,
+        "TEST": 0.6346,
+        "VITAL_NAME": 0.071,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.6923,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.1667
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.3706,
+        "NEGATIVE": 0.3099,
+        "UNCERTAIN": 0.9565
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9869,
+        "CLINICAL_HISTORY": 0.8205,
+        "UPCOMING": 0.8026,
+        "UNCERTAIN": 0.1429
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2339
+    },
+    {
+      "file_name": "218M89247_J736-108989_20241211.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 1.0,
+        "PROBLEM": 0.5375,
+        "PROCEDURE": 0.6418,
+        "TEST": 0.3739,
+        "VITAL_NAME": 1.0,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.2687,
+        "NEGATIVE": 0.2826,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9913,
+        "CLINICAL_HISTORY": 0.6,
+        "UPCOMING": 0.7429,
+        "UNCERTAIN": 0.5
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0778
+    },
+    {
+      "file_name": "241W15237_N991-674329_20241216.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.3,
+        "PROBLEM": 0.9401,
+        "PROCEDURE": 0.6058,
+        "TEST": 0.8846,
+        "VITAL_NAME": 0.2059,
+        "IMMUNIZATION": 0.125,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.8667,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.0769
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.635,
+        "NEGATIVE": 0.1587,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9767,
+        "CLINICAL_HISTORY": 0.1779,
+        "UPCOMING": 0.7105,
+        "UNCERTAIN": 0.2857
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.1
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1631
+    },
+    {
+      "file_name": "279W08692_N993-538576_20241223.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2366,
+        "PROBLEM": 0.7798,
+        "PROCEDURE": 0.7413,
+        "TEST": 0.1765,
+        "VITAL_NAME": 0.4167,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 0.9048,
+        "MENTAL_STATUS": 0.3333,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.1667
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.3852,
+        "NEGATIVE": 0.2523,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.8418,
+        "CLINICAL_HISTORY": 0.2841,
+        "UPCOMING": 0.7059,
+        "UNCERTAIN": 0.1667
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 0.9783,
+      "attribute_completeness": 0.1611
+    },
+    {
+      "file_name": "336W08434_J721-109845_20241127.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1667,
+        "PROBLEM": 0.6786,
+        "PROCEDURE": 0.3197,
+        "TEST": 0.3333,
+        "VITAL_NAME": 0.8,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.8,
+        "SDOH": 0.1667,
+        "SOCIAL_HISTORY": 0.4
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.2368,
+        "NEGATIVE": 0.1364,
+        "UNCERTAIN": 0.8333
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9663,
+        "CLINICAL_HISTORY": 0.6667,
+        "UPCOMING": 0.2286,
+        "UNCERTAIN": 0.4
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0494
+    },
+    {
+      "file_name": "352M97319_J619-223143_20241126.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2738,
+        "PROBLEM": 0.6419,
+        "PROCEDURE": 0.7403,
+        "TEST": 0.5212,
+        "VITAL_NAME": 0.1304,
+        "IMMUNIZATION": 0.6,
+        "MEDICAL_DEVICE": 0.9091,
+        "MENTAL_STATUS": 0.3333,
+        "SDOH": 0.4,
+        "SOCIAL_HISTORY": 0.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4552,
+        "NEGATIVE": 0.0833,
+        "UNCERTAIN": 0.8571
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9365,
+        "CLINICAL_HISTORY": 0.6667,
+        "UPCOMING": 0.8646,
+        "UNCERTAIN": 0.3
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0027,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 0.9875,
+      "attribute_completeness": 0.1727
+    },
+    {
+      "file_name": "363M98433_J619-215908_20241128.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1733,
+        "PROBLEM": 0.5312,
+        "PROCEDURE": 0.7306,
+        "TEST": 0.6364,
+        "VITAL_NAME": 0.8889,
+        "IMMUNIZATION": 0.2759,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.2515,
+        "NEGATIVE": 0.1714,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.8698,
+        "CLINICAL_HISTORY": 0.2174,
+        "UPCOMING": 0.3099,
+        "UNCERTAIN": 0.5556
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 1.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2223
+    },
+    {
+      "file_name": "363W18752_J721-182830_20241128.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.4051,
+        "PROBLEM": 0.631,
+        "PROCEDURE": 0.4769,
+        "TEST": 0.6226,
+        "VITAL_NAME": 0.4167,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.3333
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.5815,
+        "NEGATIVE": 0.0377,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9808,
+        "CLINICAL_HISTORY": 0.122,
+        "UPCOMING": 0.6471,
+        "UNCERTAIN": 0.2963
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2614
+    },
+    {
+      "file_name": "371W13971_J722-244055_20241128.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2583,
+        "PROBLEM": 0.4742,
+        "PROCEDURE": 0.479,
+        "TEST": 0.2264,
+        "VITAL_NAME": 0.4603,
+        "IMMUNIZATION": 0.4286,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.7778,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.4
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.5686,
+        "NEGATIVE": 0.1207,
+        "UNCERTAIN": 0.7692
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9404,
+        "CLINICAL_HISTORY": 0.1944,
+        "UPCOMING": 0.5769,
+        "UNCERTAIN": 0.6452
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 1.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.3021
+    },
+    {
+      "file_name": "400W00699_J619-210780_20241212.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.3077,
+        "PROBLEM": 0.473,
+        "PROCEDURE": 0.7386,
+        "TEST": 0.3483,
+        "VITAL_NAME": 0.881,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 0.2333,
+        "SOCIAL_HISTORY": 0.6364
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.6329,
+        "NEGATIVE": 0.0648,
+        "UNCERTAIN": 0.931
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.8796,
+        "CLINICAL_HISTORY": 0.5267,
+        "UPCOMING": 0.8881,
+        "UNCERTAIN": 0.5
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2005
+    },
+    {
+      "file_name": "410M88588_J736-100205_20241217.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.3333,
+        "PROBLEM": 0.4366,
+        "PROCEDURE": 0.7636,
+        "TEST": 0.9091,
+        "VITAL_NAME": 0.0833,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 0.9167,
+        "MENTAL_STATUS": 0.6667,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.3333
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4,
+        "NEGATIVE": 0.25,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9356,
+        "CLINICAL_HISTORY": 0.381,
+        "UPCOMING": 0.6667,
+        "UNCERTAIN": 0.1667
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1386
+    },
+    {
+      "file_name": "415M99841_J619-212434_20241204.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1013,
+        "PROBLEM": 0.9369,
+        "PROCEDURE": 0.5683,
+        "TEST": 0.5405,
+        "VITAL_NAME": 1.0,
+        "IMMUNIZATION": 0.4167,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.9231,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4452,
+        "NEGATIVE": 0.5714,
+        "UNCERTAIN": 0.3889
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9367,
+        "CLINICAL_HISTORY": 0.3117,
+        "UPCOMING": 0.5185,
+        "UNCERTAIN": 0.5714
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 1.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1992
+    },
+    {
+      "file_name": "415M99841_J619-212434_20241205.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1294,
+        "PROBLEM": 0.7634,
+        "PROCEDURE": 0.4912,
+        "TEST": 0.5429,
+        "VITAL_NAME": 1.0,
+        "IMMUNIZATION": 0.4,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 0.6667,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.3417,
+        "NEGATIVE": 0.3297,
+        "UNCERTAIN": 0.4737
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.7566,
+        "CLINICAL_HISTORY": 0.2533,
+        "UPCOMING": 0.4912,
+        "UNCERTAIN": 0.2857
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 1.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1958
+    },
+    {
+      "file_name": "437M97350_J721-176825_20241211.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2321,
+        "PROBLEM": 0.9375,
+        "PROCEDURE": 0.4234,
+        "TEST": 0.9623,
+        "VITAL_NAME": 0.0882,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.25
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.6625,
+        "NEGATIVE": 0.0732,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.8754,
+        "CLINICAL_HISTORY": 0.2333,
+        "UPCOMING": 0.8333,
+        "UNCERTAIN": 0.0833
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 0.0,
+      "attribute_completeness": 0.2283
+    },
+    {
+      "file_name": "439W18516_J721-176816_20241211.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2857,
+        "PROBLEM": 0.9189,
+        "PROCEDURE": 0.5614,
+        "TEST": 1.0,
+        "VITAL_NAME": 0.5714,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.5399,
+        "NEGATIVE": 0.5676,
+        "UNCERTAIN": 0.8
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9634,
+        "CLINICAL_HISTORY": 0.375,
+        "UPCOMING": 0.7647,
+        "UNCERTAIN": 0.0476
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1897
+    },
+    {
+      "file_name": "463W14981_N991-678203_20241205.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.5385,
+        "PROBLEM": 0.6941,
+        "PROCEDURE": 0.9902,
+        "TEST": 0.493,
+        "VITAL_NAME": 0.1569,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.5833,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.6623,
+        "NEGATIVE": 0.0482,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.7808,
+        "CLINICAL_HISTORY": 0.9375,
+        "UPCOMING": 0.8953,
+        "UNCERTAIN": 0.8333
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0989,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.1847
+    },
+    {
+      "file_name": "579W03668_N991-799671_20241218.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.4207,
+        "PROBLEM": 0.4893,
+        "PROCEDURE": 0.7426,
+        "TEST": 0.8302,
+        "VITAL_NAME": 0.617,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.5745,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.2857
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.674,
+        "NEGATIVE": 0.0533,
+        "UNCERTAIN": 0.8824
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9302,
+        "CLINICAL_HISTORY": 0.2698,
+        "UPCOMING": 0.7396,
+        "UNCERTAIN": 0.6154
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 1.0
+      },
+      "event_date_accuracy": 0.9167,
+      "attribute_completeness": 0.1532
+    },
+    {
+      "file_name": "612M65828_N991-802560_20241218.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.2917,
+        "PROBLEM": 0.9511,
+        "PROCEDURE": 0.4894,
+        "TEST": 0.4516,
+        "VITAL_NAME": 0.6429,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.375,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.0714
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.7075,
+        "NEGATIVE": 0.1538,
+        "UNCERTAIN": 0.6667
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9216,
+        "CLINICAL_HISTORY": 0.424,
+        "UPCOMING": 0.4318,
+        "UNCERTAIN": 0.3571
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0056,
+        "FAMILY_MEMBER": 0.0556
+      },
+      "event_date_accuracy": 0.9737,
+      "attribute_completeness": 0.1885
+    },
+    {
+      "file_name": "630M74464_N991-796490_20241218.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1509,
+        "PROBLEM": 0.4917,
+        "PROCEDURE": 0.5385,
+        "TEST": 0.7143,
+        "VITAL_NAME": 0.34,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 0.9,
+        "MENTAL_STATUS": 0.3333,
+        "SDOH": 0.5,
+        "SOCIAL_HISTORY": 0.2941
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.6492,
+        "NEGATIVE": 0.1912,
+        "UNCERTAIN": 0.8667
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.7804,
+        "CLINICAL_HISTORY": 0.3007,
+        "UPCOMING": 0.6164,
+        "UNCERTAIN": 0.5833
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0608,
+        "FAMILY_MEMBER": 0.0417
+      },
+      "event_date_accuracy": 0.9792,
+      "attribute_completeness": 0.1801
+    },
+    {
+      "file_name": "712W12471_J721-133074_20241212.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.4333,
+        "PROBLEM": 0.8659,
+        "PROCEDURE": 0.7975,
+        "TEST": 0.5652,
+        "VITAL_NAME": 0.1429,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 0.8,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.4691,
+        "NEGATIVE": 0.5758,
+        "UNCERTAIN": 0.7143
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9515,
+        "CLINICAL_HISTORY": 0.5,
+        "UPCOMING": 0.1739,
+        "UNCERTAIN": 0.4
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0889,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 0.0,
+      "attribute_completeness": 0.1976
+    },
+    {
+      "file_name": "735M97358_J619-210577_20241216.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.1356,
+        "PROBLEM": 0.2703,
+        "PROCEDURE": 0.7347,
+        "TEST": 0.5333,
+        "VITAL_NAME": 0.5294,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.7899,
+        "NEGATIVE": 0.1852,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9361,
+        "CLINICAL_HISTORY": 0.5429,
+        "UPCOMING": 0.5333,
+        "UNCERTAIN": 0.3
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.3419
+    },
+    {
+      "file_name": "786W17536_J730-120682_20241219.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.4286,
+        "PROBLEM": 0.6868,
+        "PROCEDURE": 0.6368,
+        "TEST": 0.7113,
+        "VITAL_NAME": 0.4906,
+        "IMMUNIZATION": 0.2308,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.5517,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.3077
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.7301,
+        "NEGATIVE": 0.0762,
+        "UNCERTAIN": 0.9412
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9549,
+        "CLINICAL_HISTORY": 0.1875,
+        "UPCOMING": 0.3943,
+        "UNCERTAIN": 0.4
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0996
+    },
+    {
+      "file_name": "791M62215_N991-802622_20241219.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.3924,
+        "PROBLEM": 0.9274,
+        "PROCEDURE": 0.5463,
+        "TEST": 0.5106,
+        "VITAL_NAME": 0.1,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.7692,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.2727
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.5223,
+        "NEGATIVE": 0.25,
+        "UNCERTAIN": 0.7647
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9819,
+        "CLINICAL_HISTORY": 0.3333,
+        "UPCOMING": 0.5579,
+        "UNCERTAIN": 0.2667
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.125
+      },
+      "event_date_accuracy": 0.8333,
+      "attribute_completeness": 0.1657
+    },
+    {
+      "file_name": "819M83517_N991-755638_20241219.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.121,
+        "PROBLEM": 0.8113,
+        "PROCEDURE": 0.6647,
+        "TEST": 0.7609,
+        "VITAL_NAME": 0.3415,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.6667,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 0.25
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.5889,
+        "NEGATIVE": 0.1463,
+        "UNCERTAIN": 0.5
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9258,
+        "CLINICAL_HISTORY": 0.3494,
+        "UPCOMING": 0.5179,
+        "UNCERTAIN": 0.4
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2222
+    },
+    {
+      "file_name": "943W19621_J727-317855_20241217.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.25,
+        "PROBLEM": 0.0,
+        "PROCEDURE": 0.0357,
+        "TEST": 0.0,
+        "VITAL_NAME": 0.3333,
+        "IMMUNIZATION": 0.0,
+        "MEDICAL_DEVICE": 0.2857,
+        "MENTAL_STATUS": 1.0,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.013,
+        "NEGATIVE": 0.6,
+        "UNCERTAIN": 1.0
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.0,
+        "CLINICAL_HISTORY": 0.0,
+        "UPCOMING": 0.0,
+        "UNCERTAIN": 0.3333
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.0,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.0714
+    },
+    {
+      "file_name": "944W15109_J721-114759_20241205.json",
+      "entity_type_error_rate": {
+        "MEDICINE": 0.3333,
+        "PROBLEM": 0.75,
+        "PROCEDURE": 0.7241,
+        "TEST": 0.193,
+        "VITAL_NAME": 1.0,
+        "IMMUNIZATION": 1.0,
+        "MEDICAL_DEVICE": 1.0,
+        "MENTAL_STATUS": 0.6923,
+        "SDOH": 1.0,
+        "SOCIAL_HISTORY": 1.0
+      },
+      "assertion_error_rate": {
+        "POSITIVE": 0.6,
+        "NEGATIVE": 0.4,
+        "UNCERTAIN": 0.1667
+      },
+      "temporality_error_rate": {
+        "CURRENT": 0.9231,
+        "CLINICAL_HISTORY": 1.0,
+        "UPCOMING": 0.913,
+        "UNCERTAIN": 0.4286
+      },
+      "subject_error_rate": {
+        "PATIENT": 0.2391,
+        "FAMILY_MEMBER": 0.0
+      },
+      "event_date_accuracy": 1.0,
+      "attribute_completeness": 0.2136
+    }
+  ],
+  "avg_event_date_accuracy": 0.9218,
+  "avg_attribute_completeness": 0.1784,
+  "avg_entity_type_error_rate": {
+    "IMMUNIZATION": 0.5263,
+    "MEDICAL_DEVICE": 0.9538,
+    "MEDICINE": 0.3145,
+    "MENTAL_STATUS": 0.7361,
+    "PROBLEM": 0.671,
+    "PROCEDURE": 0.5957,
+    "SDOH": 0.8556,
+    "SOCIAL_HISTORY": 0.4541,
+    "TEST": 0.575,
+    "VITAL_NAME": 0.4819
+  },
+  "avg_assertion_error_rate": {
+    "NEGATIVE": 0.2312,
+    "POSITIVE": 0.5019,
+    "UNCERTAIN": 0.8268
+  },
+  "avg_temporality_error_rate": {
+    "CLINICAL_HISTORY": 0.4379,
+    "CURRENT": 0.8834,
+    "UNCERTAIN": 0.3714,
+    "UPCOMING": 0.6049
+  },
+  "avg_subject_error_rate": {
+    "FAMILY_MEMBER": 0.1814,
+    "PATIENT": 0.0201
+  }
+}
